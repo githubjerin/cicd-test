@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: "sample-node-app"
-          image: "k3d-sample-registry:5555/sample-node-app:v1"
+          image: "ghcr.io/githubjerin/cicd-test:latest"
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
